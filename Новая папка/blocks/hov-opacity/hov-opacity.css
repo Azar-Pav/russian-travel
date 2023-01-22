@@ -1,0 +1,7 @@
+.hov-opacity {
+  transition: opacity .3s linear;
+}
+
+.hov-opacity:hover {
+  opacity: .72;
+}
