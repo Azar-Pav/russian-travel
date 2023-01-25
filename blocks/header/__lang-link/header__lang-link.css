@@ -5,6 +5,8 @@
   color: #FFF;
   font-weight: 400;
   text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 426px) {

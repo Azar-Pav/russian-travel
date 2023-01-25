@@ -1,4 +1,6 @@
 .hov-opacity {
+  -webkit-transition: opacity .3s linear;
+  -o-transition: opacity .3s linear;
   transition: opacity .3s linear;
 }
 

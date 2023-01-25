@@ -2,8 +2,10 @@
   margin: 7px 0 0;
   padding: 0;
   list-style: none;
+  display: -ms-grid;
   display: grid;
   gap: 18px;
+  -ms-grid-columns: auto 18px auto;
   grid-template-columns: auto auto;
 }
 
