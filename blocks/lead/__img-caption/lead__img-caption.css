@@ -1,0 +1,9 @@
+.lead__img-caption {
+  margin: 0;
+}
+
+@media screen and (min-width:769px) {
+  .lead__img-caption {
+    margin: 0 auto 0;
+  }
+}
