@@ -1,0 +1,10 @@
+.place__paragraph_primary{
+  grid-area: parag;
+  display: grid;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph_primary {
+    grid-area: unset;
+  }
+}

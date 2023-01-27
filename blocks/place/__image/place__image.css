@@ -1,0 +1,15 @@
+.place__image{
+  grid-area: image;
+  max-width: 460px;
+  max-height: 460px;
+  /* max-width: 100%; */
+  object-fit: contain;
+  /*aspect-ratio: 1 / 1;*/
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    grid-area: unset;
+    margin: 0;
+  }
+}
