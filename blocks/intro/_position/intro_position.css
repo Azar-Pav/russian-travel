@@ -1,7 +1,5 @@
-@media screen and (min-width: 1024px) {
-  .intro_position {
-    padding: 0 0 92px;
-  }
+.intro_position {
+  align-self: flex-start;
 }
 
 @media screen and (min-width: 1024px) and (max-width:1280px) {
