@@ -1,9 +1,9 @@
-.hov-opacity {
+.decor {
   -webkit-transition: opacity .3s linear;
   -o-transition: opacity .3s linear;
   transition: opacity .3s linear;
 }
 
-.hov-opacity:hover {
-  opacity: .72;
+.decor:hover {
+  opacity: .8;
 }

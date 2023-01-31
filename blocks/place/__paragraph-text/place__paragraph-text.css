@@ -1,10 +1,12 @@
-.place__paragraph_primary{
-  grid-area: parag;
+.place__paragraph-text {
   display: grid;
+  gap: 25px;
+  order: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .place__paragraph_primary {
-    grid-area: unset;
+@media screen and (max-width: 676px) {
+  .place__paragraph-text {
+    grid-column: 2 / 3;
+    order: 3;
   }
 }

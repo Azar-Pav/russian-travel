@@ -1,16 +1,15 @@
 .header__language {
-  margin: 7px 0 0;
+  margin: 12px 0 0;
   padding: 0;
   list-style: none;
   display: -ms-grid;
   display: grid;
-  gap: 18px;
-  -ms-grid-columns: auto 18px auto;
+  gap: 18px 18px;
   grid-template-columns: auto auto;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (max-width: 768px) {
   .header__language {
-    margin: 12px 0 0;
+    margin: calc( (100vw - 768px)/(768 - 320) * (12 - 7) + 7px) 0 0;
     }
 }

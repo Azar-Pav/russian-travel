@@ -9,9 +9,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
   .header__lang-link {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: calc( (100vw - 768px)/(768 - 320) * (24 - 18) + 18px);
+    line-height: calc( (100vw - 768px)/(768 - 320) * (28 - 20) + 20px);
     }
 }
