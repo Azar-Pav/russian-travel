@@ -1,17 +1,12 @@
 .header__logo {
-  /* background-image: url(../../../image/header-logo.svg); */
   width: 176px;
   height: 52px;
   object-fit: contain;
-  /* background-size: contain;
-  background-repeat: no-repeat; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 676px) {
   .header__logo {
-    width: calc( (100vw - 768px)/(768 - 320) * (176 - 142) + 142px);
-    /*height: calc( (100vw - 768px)/(768 - 320) * (52 - 42) + 42px);
-    /* max-width: 142px;
-    max-height: 42px; */
+    width: 142px;
+    height: 42px;
     }
 }
