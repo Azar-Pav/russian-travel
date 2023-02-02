@@ -7,7 +7,7 @@
   <title>Путешествие по России</title>
 </head>
 <body class="page">
-  <header class="header">
+  <header class="header header_position">
     <img src="./image/header-logo.svg" class="header__logo" alt="Россия" >
     <nav>
       <ul class="header__language">
@@ -24,9 +24,9 @@
       </ul>
     </nav>
   </header>
-  <main class="main">
-    <div class="lead">
-      <article class="lead position lead_position">
+  <main class="content">
+    <div>
+      <article class="lead lead_position">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая&nbsp;страна&nbsp;не&nbsp;в&nbsp;выпусках новостей,&nbsp;а&nbsp;здесь.</p>
         <figure class="lead__img-caption">
@@ -37,7 +37,7 @@
           <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
         </figure>
       </article>
-      <article class="intro position intro_position">
+      <article class="intro intro_position">
         <h2 class="intro__title">Чего&nbsp;мы&nbsp;там не&nbsp;видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
@@ -64,21 +64,21 @@
         </ul>
       </article>
     </div>
-    <div class="photo-grid position photo-grid_position">
-      <img src="./image/photo-grid-train.jpg" alt="Вид из окна вагона поезда" class="photo-grid__item">
-      <img src="./image/photo-grid-atharva-tulsi.jpg" alt="Гора Уллу-Тау" class="photo-grid__item">
-      <img src="./image/photo-grid-tuman.jpg" alt="Туманное поле" class="photo-grid__item">
-      <img src="./image/photo-grid-sochi.jpg" alt="Туманный лес" class="photo-grid__item">
-      <img src="./image/photo-grid-arisa.jpg" alt="Машина на льду Байкала" class="photo-grid__item">
-      <img src="./image/photo-grid-baikal.jpg" alt="Берег озера Байкал" class="photo-grid__item">
-      <img src="./image/photo-grid-elbrus.jpg" alt="Вершины горы Эльбрус" class="photo-grid__item">
-      <img src="./image/photo-grid-kondratiev.jpg" alt="Перевал Кондратьева" class="photo-grid__item">
-      <img src="./image/photo-grid-kamchatka-1.jpg" alt="Туманные холмы Камчатки" class="photo-grid__item">
-      <img src="./image/photo-grid-kamchatka-2.jpg" alt="Пейзаж Камчатки" class="photo-grid__item">
-      <img src="./image/photo-grid-baikal-2.jpg" alt="Скалистый берег озера Байкал" class="photo-grid__item">
-      <img src="./image/photo-grid-ergaki.jpg" alt="Горный хребет Ергаки" class="photo-grid__item">
+    <div class="photo-grid photo-grid_position">
+      <img class="photo-grid__item" src="./image/photo-grid-train.jpg" alt="Вид из окна вагона поезда">
+      <img class="photo-grid__item" src="./image/photo-grid-atharva-tulsi.jpg" alt="Гора Уллу-Тау">
+      <img class="photo-grid__item" src="./image/photo-grid-tuman.jpg" alt="Туманное поле">
+      <img class="photo-grid__item" src="./image/photo-grid-sochi.jpg" alt="Туманный лес">
+      <img class="photo-grid__item" src="./image/photo-grid-arisa.jpg" alt="Машина на льду Байкала">
+      <img class="photo-grid__item" src="./image/photo-grid-baikal.jpg" alt="Берег озера Байкал">
+      <img class="photo-grid__item" src="./image/photo-grid-elbrus.jpg" alt="Вершины горы Эльбрус">
+      <img class="photo-grid__item" src="./image/photo-grid-kondratiev.jpg" alt="Перевал Кондратьева">
+      <img class="photo-grid__item" src="./image/photo-grid-kamchatka-1.jpg" alt="Туманные холмы Камчатки">
+      <img class="photo-grid__item" src="./image/photo-grid-kamchatka-2.jpg" alt="Пейзаж Камчатки">
+      <img class="photo-grid__item" src="./image/photo-grid-baikal-2.jpg" alt="Скалистый берег озера Байкал">
+      <img class="photo-grid__item" src="./image/photo-grid-ergaki.jpg" alt="Горный хребет Ергаки">
     </div>
-    <div class="places">
+    <div class="places places_position">
       <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img
@@ -137,8 +137,10 @@
           class="place__image">
         <div class="place__website">
           <p class="place__url-heading">URL</p>
-          <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ
-          " class="place__link decor">YouTube
+          <a
+            href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
+            class="place__link decor">
+            YouTube
           </a>
         </div>
         <div class="place__paragraph-text">
@@ -202,13 +204,12 @@
     </div>
     <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
-        <div class="cover__overlay"></div>
         <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе &mdash; путешествие от столицы до Байкала на электричках.</p>
       </a>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer footer_position">
     <nav>
       <ul class="footer__links">
         <li><a class="footer__link decor" href="https://yandex.ru/maps">Карты</a></li>
