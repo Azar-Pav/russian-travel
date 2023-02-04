@@ -2,9 +2,7 @@
   display: -ms-grid;
   display: grid;
   gap: 48px 40px;
-  -ms-grid-columns: 460px 40px auto;
   grid-template-columns: 460px auto;
-  -ms-grid-rows: auto 48px auto;
   grid-template-rows: auto auto;
 }
 

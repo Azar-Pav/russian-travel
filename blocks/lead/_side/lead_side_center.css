@@ -1,21 +1,21 @@
-.lead_position {
+.lead_side_center {
   padding: 0 0 92px;
 }
 
 @media all and (max-width: 1080px) {
-  .lead_position {
+  .lead_side_center {
     padding: 0 48px 92px;
   }
 }
 
 @media all and (max-width: 1024px) {
-  .lead_position {
+  .lead_side_center {
     padding: 0 calc( (100vw - 768px)/(1024 - 768) * (48 - 0) + 0px) calc( (100vw - 768px)/(1024 - 768) * (92 - 88) + 88px);
   }
 }
 
 @media all and (max-width: 768px) {
-  .lead_position {
+  .lead_side_center {
     padding: 0 0 calc( (100vw - 320px)/(768 - 320) * (88 - 64) + 64px);
   }
 }

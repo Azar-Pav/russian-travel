@@ -1,5 +1,5 @@
 .lead__title {
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica;
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
@@ -7,9 +7,11 @@
   color: #FFF;
   max-width: 720px;
   margin: 0 0 48px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 768px){
+@media all and (max-width: 768px){
   .lead__title {
     font-size: calc( (100vw - 320px)/(768 - 320) * (96 - 40) + 40px);
     line-height: calc( (100vw - 320px)/(768 - 320) * (100 - 44) + 44px);
@@ -17,13 +19,13 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media all and (min-width: 768px) and (max-width: 1024px){
   .lead__title {
     margin: 0 0 32px;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media all and (min-width: 1024px) and (max-width: 1280px){
   .lead__title {
     margin: 0 0 calc( (100vw - 1024px)/(1280 - 1024) * (48 - 32) + 32px);
   }

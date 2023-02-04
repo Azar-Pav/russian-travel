@@ -1,28 +1,28 @@
-.footer_position {
+.footer_side_center {
   padding: 92px 0 24px;
   margin: 0 auto 0;
 }
 
 @media all and (max-width: 1280px) {
-  .footer_position {
+  .footer_side_center {
     padding: 92px calc( (100vw - 1024px)/(1280 - 1024) * (0 - 48) + 48px) 24px;
   }
 }
 
 @media all and (max-width: 1024px) {
-  .footer_position {
+  .footer_side_center {
     padding: calc( (100vw - 768px)/(1024 - 768) * (92 - 88) + 88px) calc( (100vw - 768px)/(1024 - 768) * (48 - 24) + 24px) 24px;
   }
 }
 
 @media all and (max-width: 768px) {
-  .footer_position {
-    padding: calc( (100vw - 768px)/(768 - 320) * (88 - 64) + 64px) 0 24px calc( (100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+  .footer_side_center {
+    padding: calc( (100vw - 320px)/(768 - 320) * (88 - 64) + 64px) 0 24px calc( (100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
   }
 }
 
 @media all and (min-width: 676px) and (max-width: 768px) {
-  .footer_position {
-    padding: calc( (100vw - 768px)/(768 - 320) * (88 - 64) + 64px) calc( (100vw - 320px)/(768 - 320) * (24 - 16) + 16px) 24px;
+  .footer_side_center {
+    padding: calc( (100vw - 320px)/(768 - 320) * (88 - 64) + 64px) calc( (100vw - 320px)/(768 - 320) * (24 - 16) + 16px) 24px;
   }
 }

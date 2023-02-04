@@ -1,0 +1,27 @@
+.places_side_center {
+  padding: 0 0 92px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1080px) {
+  .places_side_center {
+    padding: 0 48px 92px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .places_side_center {
+    padding: 0 calc( (100vw - 768px)/(1024 - 768) * (48 - 24) + 24px) calc( (100vw - 768px)/(1024 - 768) * (92 - 88) + 88px);
+  }
+}
+
+@media all and (min-width: 677px) and (max-width: 768px) {
+  .places_side_center {
+    padding: 0 calc( (100vw - 320px)/(768 - 320) * (24 - 16) + 16px) calc( (100vw - 320px)/(768 - 320) * (88 - 64) + 64px);
+  }
+}
+
+@media all and (max-width: 677px) {
+  .places_side_center {
+    padding: 0 0 calc( (100vw - 320px)/(768 - 320) * (88 - 64) + 64px);
+  }
+}

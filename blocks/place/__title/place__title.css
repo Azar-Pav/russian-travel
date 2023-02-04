@@ -1,5 +1,5 @@
 .place__title {
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica;
   margin: 0;
   padding: 0;
   color: #fff;
@@ -7,23 +7,25 @@
   font-weight: 900;
   line-height: 76px;
   order: -2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
   .place__title {
     font-size: calc( (100vw - 768px)/(1024 - 768) * (72 - 42) + 42px);
     line-height: calc( (100vw - 768px)/(1024 - 768) * (76 - 46) + 46px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   .place__title {
     font-size: calc( (100vw - 320px)/(768 - 320) * (42 - 32) + 32px);
     line-height: calc( (100vw - 320px)/(768 - 320) * (46 - 35) + 35px);
   }
 }
 
-@media screen and (max-width: 676px) {
+@media all and (max-width: 676px) {
   .place__title {
     order: 0;
     grid-column: 2 / 3;
