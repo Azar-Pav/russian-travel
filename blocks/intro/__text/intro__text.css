@@ -7,4 +7,18 @@
   margin: 0 0 33px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 690px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .intro__text {
+    max-width: calc( (100vw - 768px)/(1024 - 768) * (690 - 720) + 720px);
+  }
 }

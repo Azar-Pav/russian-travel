@@ -4,13 +4,13 @@
 
 @media all and (max-width:1080px) {
   .intro_side_left {
-    padding: 0 0 92px 48px;
+    padding: 0 48px 92px;
   }
 }
 
 @media all and (max-width: 1024px) {
   .intro_side_left {
-    padding: 0 calc( (100vw - 768px)/(1024 - 768) * (48 - 24) + 24px) calc( (100vw - 768px)/(1024 - 768) * (92 - 88) + 88px);
+    padding: 0 0 calc( (100vw - 768px)/(1024 - 768) * (92 - 88) + 88px) calc( (100vw - 768px)/(1024 - 768) * (48 - 24) + 24px);
   }
 }
 

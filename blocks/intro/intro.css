@@ -1,15 +1,17 @@
 .intro {
-  max-width: 690px;
+  width: 100%;
+  max-width: 984px;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .intro {
-    max-width: 720px;
+    max-width: 1024px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 1024px) and (max-width:1080px) {
   .intro {
-    max-width: calc( (100vw - 768px)/(1024 - 768) * (690 - 720) + 720px);
+    max-width: 1080px;
   }
 }
